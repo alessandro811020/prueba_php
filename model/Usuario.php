@@ -26,10 +26,7 @@ class Usuario extends Conectar
 
     public function readUsuarioById($id_usuario)
     {
-        $sentencia = $this->getDataBaseConnection()->prepare(' SELECT * FROM Usuario WHERE id_usuario=:id_usuario');
-        $sentencia->bindParam(':id_usuario', $id_usuario);
-
-        return $sentencia->execute();
+        return $sentencia = $this->getDataBaseConnection()->query(' SELECT * FROM Usuario where id_usuario='.$id_usuario);
     }
 
     public function readAllUsuario()

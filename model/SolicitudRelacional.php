@@ -38,18 +38,4 @@ class SolicitudRelacional extends Conectar
 
         return $contador;
     }
-
-    // public function resultadoID($id_usuario)
-    // {
-    //     $nuevo_sql = $this->sql_create_table.' WHERE id_usuario = '.$id_usuario;
-
-    //     try {
-    //         $this->nueva_consulta = $this->getDataBaseConnection()->query($nuevo_sql);
-    //     } catch (PDOException $e) {
-    //         echo 'Error conectando con la base de datos: '.$e->getMessage();
-    //     }
-    //     var_dump($this->nueva_consulta);
-
-    //     // return $this->nueva_consulta;
-    // }
 }
