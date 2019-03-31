@@ -1,0 +1,34 @@
+.cabecera{
+    width:100%;
+}
+
+.container h3{
+    color:red;
+}
+
+.container input[type=text]{
+    font-size:12px;
+    height:16px;
+}
+
+.aceptacion{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aceptacion button{
+    background-color: red;
+    color:white;
+    font-size: 18px;
+    width: 250px;
+}
+
+.bases_legales{
+    font-size: 12px;
+}
+
+.pie{
+    font-size: 12px;
+}
